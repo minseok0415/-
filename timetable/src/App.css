@@ -1,0 +1,44 @@
+table {
+  margin: 0 auto;
+  width: 80vw;
+  height: 100vh;
+  border: 1px solid black;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.st {
+  margin: 0 auto;
+  width: 10vw;
+  height: 100vh;
+  border: 1px solid black;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: lightskyblue;
+}
+
+tbody {
+  background-color: aliceblue;
+}
+
+tbody tr td:first-child {
+  background-color: lightskyblue;
+}
+
+.st tbody tr td:first-child {
+  background-color: aliceblue;
+}
+
+td, th {
+  width: 10vw;
+  height: 10vh;
+  border: 1px solid black;
+  gap: 0px;
+}
+
+div {
+  display: flex;
+}
